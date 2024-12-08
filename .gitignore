@@ -165,4 +165,11 @@ cython_debug/
 *.nii
 *.nii.gz
 
-# **/results/
+**/results/
+
+# lab3
+**/inputs/
+**/targets/
+
+#lab4
+lab04_abdomen/Data/
