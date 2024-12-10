@@ -165,7 +165,7 @@ cython_debug/
 *.nii
 *.nii.gz
 
-**/results/
+# **/results/
 
 # lab3
 **/inputs/
