@@ -9,3 +9,4 @@ torch>=2.5.1
 torchvision>=1.0.1
 torchaudio>=0.9.1
 tqdm>=4.67.3
+nibabel>=5.3.2
