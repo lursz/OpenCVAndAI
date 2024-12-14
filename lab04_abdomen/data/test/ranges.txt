@@ -1,0 +1,10 @@
+0.nii.gz 25 47
+1.nii.gz 24 46
+2.nii.gz 22 46
+3.nii.gz 43 86
+4.nii.gz 19 38
+5.nii.gz 30 49
+6.nii.gz 21 43
+7.nii.gz 26 46
+8.nii.gz 66 87
+9.nii.gz 21 44
