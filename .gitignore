@@ -162,15 +162,15 @@ cython_debug/
 #.idea/
 
 #Project specific files
-*.nii
-*.nii.gz
+# *.nii
+# *.nii.gz
 
 # **/results/
 
 # lab3
-**/inputs/
-**/targets/
+# **/inputs/
+# **/targets/
 
 #lab4
-lab04_abdomen/Data/
+# lab04_abdomen/Data/
 plots/
