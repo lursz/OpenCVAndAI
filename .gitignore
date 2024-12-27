@@ -173,3 +173,4 @@ cython_debug/
 
 #lab4
 lab04_abdomen/Data/
+plots/
