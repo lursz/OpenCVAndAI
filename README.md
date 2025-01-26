@@ -16,6 +16,9 @@ The aim of the project is to segment the lungs from the 3D chest X-ray images. T
 
 `Lungs segmentation` on the other hand includes cutting the lungs from the image and comparing the results with the ground truth. 
 
+![openai1](https://github.com/user-attachments/assets/363f8502-d8a1-4002-ae61-aa38222a6ffd)
+![input5](https://github.com/user-attachments/assets/d7ceac98-ee8b-4f3b-8fb0-e729d141d8ea)
+
 ### 2. Turning Lungs segmentation into [3D Slicer](https://www.slicer.org/) plugin
 
 ### 3. [Autoencoder](lab03_autoencoder/Autoencoder.ipynb)
@@ -25,6 +28,11 @@ An autoencoder is a type of artificial neural network used to learn efficient co
 
 In this case the autoencoder is used to convert scans into a lower-dimensional representation (in other words, compressing the data) and then reconstructing the original image from the compressed representation. However, reconstruction can be tweaked to generate images that are not the same as the original ones. In this case, graphics of ellipses with openings are generated, and then the encoder and decoder are trained to encode and reconstruct the original image, but this time without the openings.
 
+![Screenshot 2025-01-26 171415](https://github.com/user-attachments/assets/98782c8c-9216-4aef-9514-d718e1f9c4a1)
+
+
 
 ### 4. [Abdomen detection](lab04_abdomen/abdomen.ipynb)
 In this project, a NN was created to detect the abdomen from the 3D body X-ray images. The version with the dataset is available [here](https://github.com/lursz/OpenCVAndAI/tree/with-datasets). Neural network loops through the images and decides whether the current slice may be considered as an abdomen or not. The result is a 1-dimensional array of probabilities. Then the array is passed into a function that rejects the outliers and returns the final result - window of the abdomen.
+
+![openai2](https://github.com/user-attachments/assets/29509e7c-4c13-4b6e-aa76-768568857ba5)
